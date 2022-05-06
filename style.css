@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box {
+	display: flex;
+	flex-flow: row wrap;
+	width: 368px;
+	height: 368px;
+	border: outset 15px;
+	background-color: hsl(0, 0%, 79%);
+}
+
+.case {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 45px;
+	height: 45px;
+	border: dashed 0.5px black;
+}
+
+.one {
+	color: blue;
+}
+
+.two {
+	color: green;
+}
+
+.three {
+	color: red;
+}
+
+.block {
+	width: 40px;
+	height: 40px;
+	border: outset 3px;
+}
