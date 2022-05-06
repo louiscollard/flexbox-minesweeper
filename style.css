@@ -40,8 +40,46 @@ body {
 	color: red;
 }
 
-.block {
+.block,
+.block-bomb,
+.block-one,
+.block-two,
+.block-three {
 	width: 40px;
 	height: 40px;
 	border: outset 3px;
+}
+
+.block:hover {
+	width: 46px;
+	height: 46px;
+	border: none;
+}
+
+.block-one:hover {
+	width: 46px;
+	height: 46px;
+	border: none;
+	background-image: url(./images/1.png);
+}
+
+.block-two:hover {
+	width: 46px;
+	height: 46px;
+	border: none;
+	background-image: url(./images/2.png);
+}
+
+.block-three:hover {
+	width: 46px;
+	height: 46px;
+	border: none;
+	background-image: url(./images/3.png);
+}
+
+.block-bomb:hover {
+	width: 46px;
+	height: 46px;
+	border: none;
+	background-image: url(./images/bomb.png);
 }
